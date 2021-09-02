@@ -1,4 +1,4 @@
-import { Currency } from '@uniswap/sdk'
+import { Currency } from 'cxh_sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import ReactGA from 'react-ga'
 import useLast from '../../hooks/useLast'
