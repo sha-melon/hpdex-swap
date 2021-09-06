@@ -1,4 +1,4 @@
-import { ChainId } from 'cxh_sdk'
+import { ChainId } from 'hpbswap-sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
@@ -7,7 +7,7 @@ const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
   [ChainId.KOVAN]: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
   [ChainId.RINKEBY]: '0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821',
   [ChainId.GÖRLI]: '0x77dCa2C955b15e9dE4dbBCf1246B4B85b651e50e',
-  [ChainId.HPB]: '0xBd845CDf72DEaF6887cCbd7E20C9F3F32d24De78'
+  [ChainId.HPB]: '0xaB204Bc1EA18835B690045a135de14cC41c9e16e'
 }
 
 export { MULTICALL_ABI, MULTICALL_NETWORKS }

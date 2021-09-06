@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'cxh_sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'hpbswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

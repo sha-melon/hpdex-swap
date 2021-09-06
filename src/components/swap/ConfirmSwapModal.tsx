@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'cxh_sdk'
+import { currencyEquals, Trade } from 'hpbswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

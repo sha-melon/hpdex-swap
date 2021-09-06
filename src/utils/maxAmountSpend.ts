@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'cxh_sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'hpbswap-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

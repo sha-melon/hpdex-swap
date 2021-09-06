@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'cxh_sdk'
+import { Currency, ETHER, Token } from 'hpbswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

@@ -1,4 +1,4 @@
-import { ChainId } from 'cxh_sdk'
+import { ChainId } from 'hpbswap-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

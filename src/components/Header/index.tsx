@@ -1,4 +1,4 @@
-import { ChainId } from 'cxh_sdk'
+import { ChainId } from 'hpbswap-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'

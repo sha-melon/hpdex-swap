@@ -1,5 +1,5 @@
 import { isAddress } from '../../utils'
-import { Token } from 'cxh_sdk'
+import { Token } from 'hpbswap-sdk'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {
   if (search.length === 0) return tokens

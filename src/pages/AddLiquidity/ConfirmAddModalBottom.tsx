@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'cxh_sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'hpbswap-sdk'
 import React from 'react'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'

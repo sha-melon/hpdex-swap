@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'cxh_sdk'
+import { Currency, ETHER, Token } from 'hpbswap-sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import ReactGA from 'react-ga'
 import { useTranslation } from 'react-i18next'

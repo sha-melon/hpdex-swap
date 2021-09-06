@@ -1,4 +1,4 @@
-import { JSBI, Token } from 'cxh_sdk'
+import { JSBI, Token } from 'hpbswap-sdk'
 import React, { useCallback, useContext, useMemo, useState, useEffect } from 'react'
 import { ThemeContext } from 'styled-components'
 import { AutoColumn } from '../../components/Column'

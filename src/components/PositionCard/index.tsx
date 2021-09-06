@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent } from 'cxh_sdk'
+import { JSBI, Pair, Percent } from 'hpbswap-sdk'
 import { darken } from 'polished'
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'react-feather'

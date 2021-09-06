@@ -1,4 +1,4 @@
-import { JSBI } from 'cxh_sdk'
+import { JSBI } from 'hpbswap-sdk'
 import { useMemo } from 'react'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'
 import { useActiveWeb3React } from './index'

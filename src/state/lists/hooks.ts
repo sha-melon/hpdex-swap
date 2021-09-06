@@ -1,4 +1,4 @@
-import { ChainId, Token } from 'cxh_sdk'
+import { ChainId, Token } from 'hpbswap-sdk'
 import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'

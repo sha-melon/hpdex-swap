@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'cxh_sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'hpbswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'cxh_sdk'
+import { Trade, TradeType } from 'hpbswap-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

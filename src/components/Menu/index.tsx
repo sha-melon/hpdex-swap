@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
-import { Info, BookOpen, Code, PieChart, MessageCircle } from 'react-feather'
+//import { Info, BookOpen, Code, PieChart, MessageCircle } from 'react-feather'
+import { Info } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -78,7 +79,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Uniswap/uniswap-interface'
+//const CODE_LINK = 'https://github.com/Uniswap/uniswap-interface'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
@@ -94,10 +95,11 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://uniswap.org/">
+          <MenuItem id="link" href="https://hpdex.org/">
             <Info size={14} />
             About
           </MenuItem>
+	{/*
           <MenuItem id="link" href="https://uniswap.org/docs/v2">
             <BookOpen size={14} />
             Docs
@@ -114,6 +116,7 @@ export default function Menu() {
             <PieChart size={14} />
             Analytics
           </MenuItem>
+	*/}
         </MenuFlyout>
       )}
     </StyledMenu>

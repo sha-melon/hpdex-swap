@@ -1,4 +1,4 @@
-import { Currency } from 'cxh_sdk'
+import { Currency } from 'hpbswap-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

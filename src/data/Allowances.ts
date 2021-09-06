@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'cxh_sdk'
+import { Token, TokenAmount } from 'hpbswap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'
