@@ -11,7 +11,6 @@ import AccountDetails from '../AccountDetails'
 import PendingView from './PendingView'
 import Option from './Option'
 import { SUPPORTED_WALLETS } from '../../constants'
-import { ExternalLink } from '../../theme'
 import MetamaskIcon from '../../assets/images/metamask.png'
 import { ReactComponent as Close } from '../../assets/images/x.svg'
 import { injected, fortmatic, portis } from '../../connectors'
@@ -81,17 +80,17 @@ const UpperSection = styled.div`
   }
 `
 
-const Blurb = styled.div`
-  ${({ theme }) => theme.flexRowNoWrap}
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  ${({ theme }) => theme.mediaWidth.upToMedium`
-    margin: 1rem;
-    font-size: 12px;
-  `};
-`
+// const Blurb = styled.div`
+//   ${({ theme }) => theme.flexRowNoWrap}
+//   align-items: center;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   margin-top: 2rem;
+//   ${({ theme }) => theme.mediaWidth.upToMedium`
+//     margin: 1rem;
+//     font-size: 12px;
+//   `};
+// `
 
 const OptionGrid = styled.div`
   display: grid;
